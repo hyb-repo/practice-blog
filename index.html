@@ -1,0 +1,80 @@
+<!DOCTYPE html>
+<html>
+    <head>
+		<meta charset="utf-8">
+		<title>个人学习记录</title><!-- 标签页标题 -->
+	</head>
+    <body>
+    <h1>test</h1>
+	<img src="img/图片1.png" alt="图片无法加载时的文字" title="鼠标放上去时的图片标题" width="200"/>
+	<form action="https://gitee.com/" method="post">
+	<!-- 写在 form 标签对里才能提交到目标地址 -->
+	<!-- value 可以用在所有表单元素中，常见于用户可以输入内容的表单元素 -->
+		1.文字输入框&nbsp&nbsp; <input type="随便什么文字" value="默认值" />
+		<br /><br />
+		2.密码输入框&nbsp&nbsp; <input type="password" />
+		<br /><br />
+		3.提交按钮 &nbsp&nbsp&nbsp&nbsp&nbsp; <input type="submit" />
+		<br /><br />
+		4.单选的单选框 <!-- name 相同的选项中只能选一个 -->
+		<input type="radio" name="aaa" /> N  
+		<input type="radio" name="aaa" /> S
+		<br /><br />
+		5.多选的单选框
+		<input type="radio" /> aa
+		<input type="radio" /> bb
+		<br /><br />
+		6.复选框
+		<br />
+		<input type="checkbox" /> 第一个
+		<br />
+		<input type="checkbox" /> 第二个
+		<br />
+		<input type="checkbox" /> 第三个
+		<br /><br/>
+		7.单选框的默认值
+		<br/>
+		<input type="radio" /> aaa
+		<br/>
+		<input type="radio" checked /> bbb
+		<br/>
+		<input type="radio" /> ccc
+		<br/><br />
+		8.复选框的默认值
+		<br />
+		<input type="checkbox" /> AAA
+		<br/>
+		<input type="checkbox" /> BBB
+		<br/>
+		<input type="checkbox" checked=""/> CCC
+		<br/>
+		<input type="checkbox" checked=""/> DDD
+		<br /><br />
+		9.文本域<!-- rows行，cols列 -->
+		<br />
+		<textarea name="" rows="2" cols="25" ></textarea>
+		<br /><br />
+		10.下拉菜单
+		<!-- value 用来告诉后台 option标签对之间的给前端 -->
+		<!-- selected 设置默认值 -->
+		&nbsp&nbsp&nbsp;
+		<select name="">
+			<option value="01">第 1 项</option>
+			<option value="02" selected >第 2 项</option>
+			<option value="03">第 3 项</option>
+			<option value="04">第 4 项</option>
+		</select>
+		<br /><br />
+		11.重置按钮
+		<br />
+		<input type="reset" /> 
+		<br />
+		12.普通按钮
+		<br />
+		<input type="button" value="点我" />
+		<br /><br />
+		<img src="img/hh.jpg" width=200 alt="头像" title="头像"/>
+		<img src="img/art/11.jpg" width=200 alt="示例" title="示例" />
+	</form>
+    </body>
+</html>
