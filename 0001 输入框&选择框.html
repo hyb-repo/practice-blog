@@ -8,7 +8,9 @@
 		<form action="https://gitee.com/" method="post">
 		<!-- 写在 form 标签对里才能提交到目标地址 -->
 		<!-- value 可以用在所有表单元素中，常见于用户可以输入内容的表单元素 -->
-			1.文字输入框&nbsp&nbsp; <input type="随便什么文字" value="默认值" />
+			1.1 填写文字的输入框&nbsp&nbsp; <input type="text" value="默认值" />
+			<br /><br />
+			1-2. 显示提示的输入框&nbsp&nbsp;<input type="text" placeholder="请输入文字"/>
 			<br /><br />
 			2.密码输入框&nbsp&nbsp; <input type="password" />
 			<br /><br />
@@ -65,10 +67,12 @@
 			<br /><br />
 			11.重置按钮
 			<br />
-			<input type="reset" /> 
+			<input type="reset" value="rr" />
+			<input type="reset" />
 			<br />
 			12.普通按钮
 			<br />
 			<input type="button" value="点我" />
+			<br />			
 	</body>
 </html>
