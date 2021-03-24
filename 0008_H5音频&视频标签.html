@@ -5,17 +5,29 @@
 		<title>H5的音频标签</title>
 	</head>
 	<body>
-		<audio src="audio/Zy-Ferrari.mp3" controls>
+		<audio src="audio/Cello%20Suite.mp3" controls>
+			这个标签里的文字只在浏览器不支持播放器时显示
 		<!-- autoplay  自动播放-->
 		<!-- controls  展示浏览器的播放控件，在每种浏览器的样式都不一样 -->
 		<!-- autoplay controls loop  循环播放 -->
 		</audio>
+		
 		<audio controls >
-			<source src="audio/Zy-Ferrari.mp3" >
+			<source src="audio/Wrong%20Note.mp3" >
 		<!-- 
 		这行代码用来设定多种文件格式，以兼容不同浏览器支持的格式
 			<source src="audio/Zy-Ferrari.odd" > 
 		-->
 		</audio>
+		<video width="800" height="">
+			<source src="myvideo.mp4" type="video/mp4"></source>
+			<source src="myvideo.ogv" type="video/ogg"></source>
+			<source src="myvideo.webm" type="video/webm"></source>
+			<object width="" height="" type="application/x-shockwave-flash" data="myvideo.swf">
+				<param name="movie" value="myvideo.swf" />
+				<param name="flashvars" value="autostart=true&amp;file=myvideo.swf" />
+			</object>
+			当前浏览器不支持 video直接播放，点击这里下载视频： <a href="myvideo.webm">下载视频</a>
+		</video>
 	</body>
 </html>
