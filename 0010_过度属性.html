@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<meta charset="utf-8">
+		<title>过度属性</title>
+		<style type="text/css">
+			div{
+				color: #00FFFF;
+				background-color: #FAEBD7;
+				width: 200px;
+				height: 200px;
+				transition: all 2s linear 0.5s;
+				  /* 逐渐变为 :hover 的样式*/
+				  /* 过度的对象 过度的时间 动画形式 等待多久后执行过度 */
+				  /* transition 写在 hover 里时鼠标离开立即恢复 */
+				text-align: center;
+				font: 20px/200px"agency fb";
+			}
+			div:hover{  
+				  /* :hover 设置鼠标移上去时的样式 */
+				color: #FA8072;
+				background-color: #FFC99C;
+				width: 250px;
+				height: 250px;
+				font:bold 25px/250px"agency fb";
+			}
+			
+		</style>
+	</head>
+	<body>
+		<div>文字部分</div>
+	</body>
+</html>
